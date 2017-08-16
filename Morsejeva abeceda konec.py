@@ -92,7 +92,7 @@ class Morsejeva():
         self.besedilo = "" 
         self.besediloLabel["text"] = ("") 
             
-root = Tk() 
-app = Morsejeva(root)
-root.mainloop() 
+master = Tk() 
+app = Morsejeva(master)
+master.mainloop() 
         
